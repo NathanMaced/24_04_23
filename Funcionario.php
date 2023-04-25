@@ -12,6 +12,9 @@
                 $this->salario = $salario;
             }
         }
+        function getSalario(){
+            return $this->salario;
+        }
     }
 
 ?>
