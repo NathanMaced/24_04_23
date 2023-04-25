@@ -1,6 +1,6 @@
 <?php
 
-    class Funcionarios{
+    class Funcionario{
         private $codigo;
         public $nome;
         private $nascimento;
