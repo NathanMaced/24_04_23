@@ -13,6 +13,9 @@
         }
     }
 
-    echo Biblioteca::Nome . Aplicacao::Ambiente . Aplicacao
+    echo Biblioteca::Nome . Aplicacao::Ambiente . Aplicacao::Versao . "<br>";
+
+    new Aplicacao(' Dia ');
+    new Aplicacao(' Gimp ');
 
 ?>
