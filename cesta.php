@@ -2,7 +2,7 @@
 
 
     class Cesta{
-        private $itns;
+        private $itens;
 
         function AdicionaItem(Produto $item){
             $this->itens[] = $item;

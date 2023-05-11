@@ -1,11 +1,11 @@
 <?php
 
-    include_once 'Cesta.php';
-    include_once 'Fornecedor.php';
-    include_once 'Produto.php';
+    include_once 'cesta.php';
+    include_once 'fornecedor.php';
+    include_once 'produto.php';
 
     $fornecedor = new Fornecedor;
-    $fornecedor->RazaoSocial = 'Produto Bom Gosto S.A.'
+    $fornecedor->RazaoSocial = 'Produto Bom Gosto S.A.';
 
     $cesta = new Cesta();
 
