@@ -9,7 +9,7 @@
         function imprimeEtiqueta()
         {
             print 'Codigo: ' .$this->Codigo. "<br>";
-            print 'Descrição: ' .$this->Descricao . "<br><br>"
+            print 'Descrição: ' .$this->Descricao . "<br><br>";
         }
     }
   

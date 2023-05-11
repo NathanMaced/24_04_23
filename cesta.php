@@ -1,13 +1,11 @@
 <?php
 
+
     class Cesta{
-       
-        
-        private $itens;
+        private $itns;
 
-        function AdicionarItem(Produto $iten){
-            $this->itens[] = $iten;
-
+        function AdicionaItem(Produto $item){
+            $this->itens[] = $item;
         }
 
         function ExibeLista(){
@@ -15,19 +13,14 @@
                 $item->ImprimeEtiqueta();
             }
         }
-        function Calculadora(){
+
+        function CalculaTotal(){
             $total = 0;
             foreach ($this->itens as $item) {
-
                 $total += $item->Preco;
             }
-        }
-        {   
-            print 'Codigo: ' .$this->Codigo. "<br>";
-            print 'Descrição: ' .$this->Descricao . "<br><br>"
+            return 'Total: R$ ' .$total. '<br>';
         }
     }
-  
+
 ?>
-
-
